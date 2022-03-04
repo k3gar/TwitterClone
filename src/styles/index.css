@@ -1,0 +1,104 @@
+@font-face {
+    font-family: TwitterChirpExtendedHeavy;
+    src: url(https://abs.twimg.com/fonts/v1/chirp-extended-heavy-web.woff2) format('woff2');
+    src: url(https://abs.twimg.com/fonts/v1/chirp-extended-heavy-web.woff) format('woff');
+    font-weight: 800;
+    font-style: 'normal';
+    font-display: 'swap';
+  }
+  @font-face {
+    font-family: TwitterChirp;
+    src: url(https://abs.twimg.com/fonts/v2/chirp-regular-web.woff2) format('woff2');
+    src: url(https://abs.twimg.com/fonts/v2/chirp-regular-web.woff) format('woff');
+    font-weight: 400;
+    font-style: 'normal';
+    font-display: 'swap';
+  }
+  @font-face {
+    font-family: TwitterChirp;
+    src: url(https://abs.twimg.com/fonts/v2/chirp-medium-web.woff2) format('woff2');
+    src: url(https://abs.twimg.com/fonts/v2/chirp-medium-web.woff) format('woff');
+    font-weight: 500;
+    font-style: 'normal';
+    font-display: 'swap';
+  }
+  @font-face {
+    font-family: TwitterChirp;
+    src: url(https://abs.twimg.com/fonts/v2/chirp-bold-web.woff2) format('woff2');
+    src: url(https://abs.twimg.com/fonts/v2/chirp-bold-web.woff) format('woff');
+    font-weight: 700;
+    font-style: 'normal';
+    font-display: 'swap';
+  }
+  @font-face {
+    font-family: TwitterChirp;
+    src: url(https://abs.twimg.com/fonts/v2/chirp-heavy-web.woff2) format('woff2');
+    src: url(https://abs.twimg.com/fonts/v2/chirp-heavy-web.woff) format('woff');
+    font-weight: 800;
+    font-style: 'normal';
+    font-display: 'swap';
+  }
+
+*{
+    margin: 0;
+}
+h1{
+    font-family: 'TwitterChirpExtendedHeavy', sans-serif;
+    font-size: 64px;
+}
+h2{
+    font-family: 'TwitterChirpExtendedHeavy', sans-serif;
+    font-size: 31px;
+}
+.App {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.loginLogo{
+    width: 47%;
+    height: 100vh;
+    background-image: url('https://abs.twimg.com/sticky/illustrations/lohp_1302x955.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginLogo--bird{
+    background-image: url('https://icon-library.com/images/twitter-icon-svg/twitter-icon-svg-28.jpg');
+    width: 359px;
+    height: 292px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.loginSection{
+    padding: 16px;
+    width: 53%;
+}
+.loginSection-logo{
+    background-image: url('https://upload.wikimedia.org/wikipedia/sco/thumb/9/9f/Twitter_bird_logo_2012.svg/1024px-Twitter_bird_logo_2012.svg.png?20141014130605');
+    width: 47px;
+    height: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.css-1dbjc4n{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 12px 16px;
+}
+.css-4rbku5{
+  text-decoration: none;
+  color: rgb(83, 100, 113);
+  padding-right: 16px;
+  font-size: 14px;
+  font-family: 'TwitterChirp', sans-serif;
+  cursor: pointer;
+}
+.css-4rbku5:hover{
+  text-decoration:underline;
+}
