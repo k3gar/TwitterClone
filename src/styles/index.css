@@ -41,21 +41,27 @@
 
 *{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 h1{
     font-family: 'TwitterChirpExtendedHeavy', sans-serif;
     font-size: 64px;
+    line-height: 84px;
+    letter-spacing: -1.2px;
 }
 h2{
     font-family: 'TwitterChirpExtendedHeavy', sans-serif;
     font-size: 31px;
 }
-.App {
+/* .App {
     display: flex;
     flex-direction: row-reverse;
-}
-.loginLogo{
-    width: 47%;
+    justify-content: flex-end;
+    
+} */
+/* .loginLogo{
+    max-width: 100%;
     height: 100vh;
     background-image: url('https://abs.twimg.com/sticky/illustrations/lohp_1302x955.png');
     background-position: center;
@@ -65,17 +71,22 @@ h2{
     justify-content: center;
     align-items: center;
 }
+.loginLogo-Container{
+  min-width: 45vh;
+
+} */
 .loginLogo--bird{
     background-image: url('https://icon-library.com/images/twitter-icon-svg/twitter-icon-svg-28.jpg');
-    width: 359px;
-    height: 292px;
+    width: 350px;
+    max-width: 359px;
+    height: 289px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .loginSection{
     padding: 16px;
-    width: 53%;
+    width: 45vw;
 }
 .loginSection-logo{
     background-image: url('https://upload.wikimedia.org/wikipedia/sco/thumb/9/9f/Twitter_bird_logo_2012.svg/1024px-Twitter_bird_logo_2012.svg.png?20141014130605');
@@ -101,4 +112,38 @@ h2{
 }
 .css-4rbku5:hover{
   text-decoration:underline;
+}
+.login{
+  display: flex;
+
+}
+
+.loginSection{
+  max-width: 638px;
+  min-width: 44vw;
+  height: 95vh;
+  padding: 16px;
+}
+.loginLogo-Container{
+  min-width: 385px;
+  background-color: rgb(107, 201, 251);
+  background-image: url('https://abs.twimg.com/sticky/illustrations/lohp_en_1302x955.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 95vh;
+  order: -1;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loginSection--content{
+  padding: 20px;
+  min-width: 437px;
+  max-width: 760px;
+
+}
+.loginSection--content h1{
+  margin: 48px 0;
 }
