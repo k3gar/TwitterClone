@@ -77,7 +77,7 @@ h2{
 } */
 .loginLogo--bird{
     background-image: url('https://icon-library.com/images/twitter-icon-svg/twitter-icon-svg-28.jpg');
-    width: 350px;
+    width: 304.5px;
     max-width: 359px;
     height: 289px;
     background-position: center;
@@ -120,8 +120,8 @@ h2{
 
 .loginSection{
   max-width: 638px;
-  min-width: 44vw;
-  height: 95vh;
+  min-width: 45.4vw;
+  height: 100vh;
   padding: 16px;
 }
 .loginLogo-Container{
@@ -131,7 +131,7 @@ h2{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 95vh;
+  height: 100vh;
   order: -1;
   flex: 1;
   display: flex;
