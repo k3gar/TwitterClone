@@ -11,9 +11,9 @@ const LoginPage = () => {
             <h3>Sign in to Twitter</h3>
                 <Buttons/>
                 {/* <span className="or-divider">or</span> */}
-                <label className='loginPage--form__input' htmlFor="">
+                <label className='loginPage--form__input change-input-login' htmlFor="text">
                   Phone, email, or username
-                  <input onClick={() => {console.log('click')}} className='loginPage--form__area' type="text" />
+                  <input id='text' onClick={() => {console.log('click')}} className='loginPage--form__area' type="text" />
                 </label>
             </div>
         </section>
