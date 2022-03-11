@@ -25,6 +25,7 @@
 .loginPage--form div{
     display: flex;
     flex-direction: column;
+    padding-bottom: 48px;
 }
 
 .loginPage--form__tittle{
@@ -35,6 +36,7 @@
     width: 300px;
     text-align: center;
     font-family: 'TwitterChirp', sans-serif;
+    margin: 12px 0;
 }
 .loginPage--form__input{
     width: 298px;
@@ -78,14 +80,8 @@
     transition: -webkit-transform 150ms cubic-bezier(0.4, 0, 0.2, 1) 0s, transform 150ms cubic-bezier(0.4, 0, 0.2, 1) 0s, color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0s, font-size 150ms cubic-bezier(0.4, 0, 0.2, 1) 0s, padding-top 150ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
 }
 .loginSection-logo{
-    background-image: url('https://upload.wikimedia.org/wikipedia/sco/thumb/9/9f/Twitter_bird_logo_2012.svg/1024px-Twitter_bird_logo_2012.svg.png?20141014130605');
-    width: 30px;
-    height: 24px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
     position: absolute;
-    top: 35px;
+    top: 16px;
 }
 
 .loginSection--loginButton{
@@ -93,9 +89,34 @@
 }
 .loginSection--signup{
     margin: 12px 0 0 0;
+    color: #536471;
+    font-size: 15px;
 }
 .loginSection-exitLogo{
     position: absolute;
-    top: 15px;
-    left: 15px;
+    top: 18px;
+    left: 18px;
+}
+.loginSection-exitLogo:hover{
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 25px;
+    padding: 10px;
+    margin-left: calc(-10px);
+    margin-top: calc(-10px);
+    cursor: pointer;
+
+}
+.loginSection--black{
+    background-color: #0f1419;
+    color: white;
+    font-weight: bold;
+}
+.loginSection--black:hover{
+    background-color: rgba(0,0,0,0.9);
+    padding: 15px;
+
+}
+.loginSection--pass{
+    color: #0f1419;
+    font-weight: bold;
 }

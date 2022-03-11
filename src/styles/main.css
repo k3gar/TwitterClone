@@ -1,0 +1,16 @@
+main{
+    border: 1px solid gray;
+    display: flex;
+    width: 990px;
+    justify-content: space-between;
+}
+.main--post{
+    max-width: 600px;
+}
+.main--post p{
+    margin: 35px 0;
+}
+
+.main--aside{
+    width: 350px;
+}

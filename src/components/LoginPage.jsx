@@ -26,8 +26,9 @@ const LoginPage = () => {
   return (
     <main className='loginPage'>
         <section className='loginPage--form' onMouseDown={() => {removing();}}>
-            <img className="loginSection-exitLogo" src="https://img.icons8.com/ios-glyphs/30/000000/delete-sign.png"/>
-            <div className="loginSection-logo"></div>
+            <img className="loginSection-exitLogo" src="https://img.icons8.com/material-outlined/20/000000/delete-sign.png"/>
+            
+            <img className="loginSection-logo" src="https://img.icons8.com/color/43/000000/twitter--v1.png"/>
             <div>
             <h3 className='loginPage--form__tittle'>Sign in to Twitter</h3>
                 <Buttons/>
@@ -36,10 +37,10 @@ const LoginPage = () => {
                   Phone, email, or username
                   <input id='text' className='loginPage--form__area' type="text" />
                 </label>
-                <button className="loginSection--loginButton" type="button"> 
+                <button className="loginSection--loginButton loginSection--black" type="button"> 
                   <p>Next</p>
                 </button>
-                <button className="loginSection--loginButton" type="button"> 
+                <button className="loginSection--loginButton loginSection--pass" type="button"> 
                   <p>Forgot password?</p>
                 </button>
                 <p className="loginSection--signup">Don't have an account?<a href="#">Sign up</a></p>
