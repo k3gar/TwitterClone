@@ -64,3 +64,8 @@ h3{
 p{
   font-family: 'TwitterChirp', sans-serif;
 }
+a{
+  text-decoration: none;
+  color: rgb(29, 155, 240);
+  margin: 0 8px;
+}

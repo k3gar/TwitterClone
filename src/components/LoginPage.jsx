@@ -4,8 +4,7 @@ import ('../styles/loginPage.css')
 
 
 const LoginPage = () => {
-  const [value, setValue] = React.useState(false);
-  
+
   const adding = () =>{
     const Label = document.querySelector('#text_label');
     Label.classList.add('move')
@@ -15,8 +14,6 @@ const LoginPage = () => {
     const Label = document.querySelector('#text_label');
     Label.classList.remove('change-input-login')
     let inputArea = document.querySelector('#text').value;
-
-
     if(inputArea != 0){
       Label.classList.add('change-input-login-text')
     }else{
@@ -29,14 +26,23 @@ const LoginPage = () => {
   return (
     <main className='loginPage'>
         <section className='loginPage--form' onMouseDown={() => {removing();}}>
+            <img className="loginSection-exitLogo" src="https://img.icons8.com/ios-glyphs/30/000000/delete-sign.png"/>
+            <div className="loginSection-logo"></div>
             <div>
-            <h3>Sign in to Twitter</h3>
+            <h3 className='loginPage--form__tittle'>Sign in to Twitter</h3>
                 <Buttons/>
-                {/* <span className="or-divider">or</span> */}
+                <span className="or-divider">or</span>
                 <label id='text_label' className='loginPage--form__input' htmlFor="text" onMouseUp={()=> {adding();}}>
                   Phone, email, or username
                   <input id='text' className='loginPage--form__area' type="text" />
                 </label>
+                <button className="loginSection--loginButton" type="button"> 
+                  <p>Next</p>
+                </button>
+                <button className="loginSection--loginButton" type="button"> 
+                  <p>Forgot password?</p>
+                </button>
+                <p className="loginSection--signup">Don't have an account?<a href="#">Sign up</a></p>
             </div>
         </section>
     </main>
