@@ -2,7 +2,10 @@
 header{
     border: 1px solid red;
     display: flex;
+    align-items: flex-end;
     flex-direction: column;
+    width: 275px;
+    position: relative;
 }
 a{
     text-decoration: none;
@@ -19,8 +22,11 @@ a{
     justify-content: space-between;
     margin: 0;
     padding: 0 15px 0 ;
-    /* height: 100vh; */
     position: fixed;
+    min-width: 88px;;
+    border: 1px solid green;
+
+    /* height: 100vh; */
 }
 .headerMenu li{
     display: flex;

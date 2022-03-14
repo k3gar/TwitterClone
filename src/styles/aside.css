@@ -1,0 +1,6 @@
+.main--aside{
+    position: relative;
+}
+.main--aside__container{
+    position: fixed;
+}

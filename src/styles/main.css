@@ -6,6 +6,7 @@ main{
 }
 .main--post{
     max-width: 600px;
+    position: relative;
 }
 .main--post p{
     margin: 35px 0;
@@ -13,4 +14,29 @@ main{
 
 .main--aside{
     width: 350px;
+}
+.r-18jsvk2{
+    width: 20px;
+}
+.main--post__tittle{
+    position: relative;
+    width: 600px;
+    height: 53px;
+
+}
+.main--post__tittle_container{
+    display: flex;
+    width: 600px;
+    height: 53px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 16px;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.85);
+}
+.main--post__tittle_container h3 {
+    font-size: 20px;
+    line-height: 24px;
+    color: #0f1419;
+    font-weight: 700;
 }
