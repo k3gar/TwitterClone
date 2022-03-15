@@ -1,10 +1,12 @@
 @import url('../styles/globals.css');
 header{
-    border: 1px solid red;
     display: flex;
     align-items: flex-end;
     flex-direction: column;
     width: 275px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin: 5px 5px 0 0;
     position: relative;
 }
 a{
@@ -24,21 +26,80 @@ a{
     padding: 0 15px 0 ;
     position: fixed;
     min-width: 88px;;
-    border: 1px solid green;
-
-    /* height: 100vh; */
 }
-.headerMenu li{
+.headerMenu--items{
     display: flex;
     list-style: none;
     align-content: space-between;
     align-items: center;
     margin: 10px 0;
-    padding: 12px;
 }
+.headerMenu--items div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 0.2s;
+    height: 100%;
+    padding: 10px 0;
+    padding-left: 8px;
+}
+.headerMenu--items:hover div{
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    padding-left: 8px;
+}
+
 .headerMenu--icons{
     width: 15px;
     height: 15px;
     background: black;
     margin: 0 10px 0 0;
+}
+
+.r-icons-input-bird{
+    width: 50px;
+    height: 30px;
+    fill: rgb(29, 155, 240);
+    margin-left: -2px;
+}
+.headerMenu--elements__logo:hover{
+    background-color:rgba(29, 155, 240, 0.2);
+    border-radius: 30px;
+    margin-left: -2px;
+}
+.headerMenu--elements__logo:hover .r-icons-input-bird{
+    margin-left: 0px;
+}
+
+.headerMenu--tweet-button{
+    background-color: rgb(29, 155, 240);
+    border: none;
+    border-radius: 100px;
+    width: 225px;
+    height: 52px;
+}
+.headerMenu--tweet-button a{
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.r-4qtqp9{
+    width: 26.5px;
+    height: 26.5px;
+}
+.headerMenu--elements li a{
+    margin-left: 20px;
+    margin-right: 16px;
+    line-height: 24px;
+    font-size: 20px;
+    color: rgb(15, 20, 25);
+    text-decoration: none;
+}
+
+.headerMenu--elements__logo{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
 }

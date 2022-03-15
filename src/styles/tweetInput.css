@@ -2,30 +2,68 @@
 
 .tweetinput{
     padding: 0px 16px;
+    border-bottom: 1px solid #f1f1f1;
 }
 .r-icons-input{
     width: 20px;
+    fill: rgb(29, 155, 240);
+    cursor: pointer;
+    margin: 0 6px;
 }
 .tweetinput--container{
     display: flex;
-    width: 598px;
     height: 108px;
+    padding-top: 4px;
 }
 
 .tweetinput--container__pic{
     width: 50px;
     height: 50px;
     border-radius: 50px;
+    margin-right: 12px;
+    padding-top: 4px;
 }
 
 .tweetinput--interactive{
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 .tweetinput--interactive__assets{
     display: flex;
     justify-content: space-between;
+    margin-top: 12px;
 }
 .tweetinput--interactive__icons{
     display: flex;
+    /* margin-top: 12px; */
+    margin-top: -6px;
+
+}
+.tweetinput--interactive__input{
+    min-height: 28px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-family: 'TwitterChirp', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0f1419;
+    resize: none;
+    overflow: hidden;
+}
+.tweetinput--interactive__button{
+    opacity: 0.5;
+    background-color: rgb(29, 155, 240);
+    width: 76px;
+    height: 36px;
+    border-radius: 9999px;
+    border-style: solid;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 700;
+
 }
