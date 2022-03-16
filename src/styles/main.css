@@ -1,5 +1,4 @@
 main{
-    border: 1px solid gray;
     display: flex;
     width: 990px;
     justify-content: space-between;
@@ -23,7 +22,7 @@ main{
 .main--post__tittle{
     position: relative;
     width: 600px;
-    height: 53px;
+    height: 50px;
 
 }
 .main--post__tittle_container{
