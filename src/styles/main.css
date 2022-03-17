@@ -41,3 +41,6 @@ main{
     color: #0f1419;
     font-weight: 700;
 }
+.main--post__tittle_container:hover{
+    cursor: pointer;
+}

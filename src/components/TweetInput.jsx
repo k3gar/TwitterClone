@@ -19,7 +19,7 @@ const TweetInput = () => {
             <img className='tweetinput--container__pic' src="https://pbs.twimg.com/profile_images/1235351751802400774/LNPwr6Hv_normal.jpg" alt="profile pic" />
             <div className='tweetinput--interactive'>
                 <label className='tweetinput--label' htmlFor="post-input">
-                    <textarea onKeyUp={ () => {prueba5()}} id='post-input' type='text' className='tweetinput--interactive__input' placeholder='Whats Happening'></textarea>
+                    <textarea onKeyUp={ () => {prueba5()}} id='post-input' type='text' className='tweetinput--interactive__input' placeholder='What’s Happening?'></textarea>
 
                 </label>
                 <div className='tweetinput--interactive__assets'>

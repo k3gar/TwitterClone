@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/header.css'
+import ProfileButton from './ProfileButton'
 
 const Header = () => {
   return (
@@ -73,9 +74,7 @@ const Header = () => {
               <button className='headerMenu--tweet-button' type='button'><a href="#">Tweet</a></button>
             </div>
           </div>
-          <div>
-            Perfil
-          </div>
+          <ProfileButton/>
         </ul>
     </header>
   )

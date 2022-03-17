@@ -1,10 +1,12 @@
 import React from 'react';
 import '../styles/aside.css';
+import Search from './Search';
 
 const Aside = () => {
   return (
     <React.Fragment>
         <div className="main--aside">
+            <Search/>
             <div className="main--aside__container">
                     <div>
                         <h3>Trends for you</h3>
