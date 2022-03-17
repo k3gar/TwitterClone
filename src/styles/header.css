@@ -41,7 +41,7 @@ a{
     justify-content: center;
     transition-duration: 0.2s;
     height: 100%;
-    padding: 10px 0;
+    padding: 7.5% 0;
     padding-left: 8px;
 }
 .headerMenu--items:hover div{
