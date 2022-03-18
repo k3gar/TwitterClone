@@ -41,7 +41,7 @@ a{
     justify-content: center;
     transition-duration: 0.2s;
     height: 100%;
-    padding: 4.5% 0;
+    padding: 7.5% 0;
     padding-left: 8px;
 }
 .headerMenu--items:hover div{
@@ -65,7 +65,7 @@ a{
 }
 .headerMenu--elements__logo:hover{
     background-color:rgba(29, 155, 240, 0.2);
-    border-radius: 30px;
+    border-radius: 25px;
     margin-left: -2px;
 }
 .headerMenu--elements__logo:hover .r-icons-input-bird{
@@ -110,4 +110,11 @@ a{
     height: 50px;
     display: flex;
     align-items: center;
+}
+
+
+@media screen and (max-height: 702px) {
+    .headerMenu--items div{
+        padding: 4.5% 0;
+    }
 }
