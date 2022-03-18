@@ -5,33 +5,6 @@ import Trends from './Trends';
 import WhoFollow from './WhoFollow';
 
 const Aside = () => {
-/*     function styleScroll() {
-        var element = document.getElementById("stickyElement");
-        var sticky = element.offsetTop;
-
-        if (window.pageYOffset > sticky) {
-            element.classList.add("sticky");
-          } else {
-            element.classList.remove("sticky");
-          }
-    } */
-
-/*     window.onscroll = function() {myFunction()};
-
-    var header = document.getElementById("stickyElement");
-    var sticky = header.offsetTop;
-
-    function myFunction() {
-    if (window.pageYOffset > sticky) {
-        header.classList.add("sticky");
-    }
-    else if(window.pageYOffset > 371){
-        header.classList.remove("sticky");
-    }
-    else {
-        header.classList.remove("sticky");
-    }
-    } */
 
   return (
     <React.Fragment>

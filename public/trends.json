@@ -1,0 +1,32 @@
+[
+    {
+      "location": "El Salvador",
+      "topic": "custom",
+      "title": "#ElSalvador",
+      "scope": "2,697 Tweets"
+    },
+    {
+      "location": null,
+      "topic": "Technology",
+      "title": "#opensource",
+      "scope": "9,176 Tweets"
+    },
+    {
+      "location": null,
+      "topic": "Music",
+      "title": "Coldplay",
+      "scope": "28.5K Tweets"
+    },
+    {
+      "location": "El Salvador",
+      "topic": "custom",
+      "title": "Banco",
+      "scope": "70.7K Tweets"
+    },
+    {
+      "location": "El Salvador",
+      "topic": "custom",
+      "title": "CIDH",
+      "scope": "20.1K Tweets"
+    }
+  ]

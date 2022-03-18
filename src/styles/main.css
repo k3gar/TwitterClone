@@ -34,6 +34,7 @@ main{
     padding: 0px 16px;
     position: fixed;
     background-color: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
 }
 .main--post__tittle_container h3 {
     font-size: 20px;

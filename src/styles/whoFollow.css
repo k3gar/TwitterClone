@@ -1,12 +1,13 @@
 .main--aside-follow{
     width: 350px;
-    height: 50vh;
     background-color: #eff3f4;
     border-radius: 16px;
     padding-bottom: 12px;
+
+/*     padding-bottom: 12px;
     padding-top: 12px;
     padding-left: 16px;
-    padding-right: 16px;
+    padding-right: 16px; */
     margin: 12px 0 0 0;
     overflow: hidden;
 }
@@ -16,4 +17,44 @@
     line-height: 24px;
     font-weight: 800;
     color: #0f1419;
+    padding: 12px 16px;
+}
+.main--aside-follow-pic{
+    width: 48px;
+    height: 48px;
+    border-radius: 50px;
+}
+.main--aside-follow ul li{
+    list-style: none;
+    display: flex;
+    padding: 12px 16px;
+}
+.main--aside-follow li:hover{
+    background-color: #e5e7e7;
+    transition-duration: 0.2s;
+}
+.main--aside-follow li p{
+    font-size: 15px;
+    line-height: 20px;
+    color: #536471;
+    margin-top: 5px;
+}
+.main--aside-follow-textContainer{
+    margin-left: 15px;
+    display: flex;
+    width: -webkit-fill-available;
+    justify-content: space-between;
+    align-items: center;
+}
+.main--aside-follow-textContainer button {
+    background-color: #0f1419;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 700;
+    color: white;
+    width: 77px;
+    height: 32px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
 }
