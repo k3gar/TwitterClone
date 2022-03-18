@@ -37,6 +37,7 @@ const Aside = () => {
     <React.Fragment>
         <div className="main--aside">
             <Search/>
+            <div id='css-1db' className='css-1db'></div>
             <div id='stickyElement' className="main--aside__container">
                     <Trends/>
                     <WhoFollow/>

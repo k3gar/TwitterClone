@@ -8,10 +8,11 @@
     position: sticky;
     top: -35%;
 }
-/* .sticky{
-    position: sticky;
-    top: -30%;
-} */
+
+.css-1db{
+    width: 100%;
+    position: relative;
+}
 
 .css-1dbjc4n{
     display: flex;

@@ -5,6 +5,11 @@ import HomePage from "./components/HomePage";
 
 
 function App() {
+/*   const myOnScroll = (e) => {
+    let prueba = e.target
+    console.log(prueba)
+  } */
+
   return (
   <div>
     {/* <LoginPage /> */}
