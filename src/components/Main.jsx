@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/main.css'
 import Aside from './Aside'
+import PostHome from './PostHome'
 import TweetInput from './TweetInput'
 
 const Main = () => {
@@ -16,6 +17,7 @@ const Main = () => {
           </div>
         </div>
         <TweetInput/>
+        <PostHome/>
       <h1>Hello</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque animi error non asperiores voluptas vel iste ullam beatae quisquam placeat, provident optio. Ab vitae quam delectus facilis ipsam fugiat harum?</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque animi error non asperiores voluptas vel iste ullam beatae quisquam placeat, provident optio. Ab vitae quam delectus facilis ipsam fugiat harum?</p>

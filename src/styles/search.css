@@ -9,12 +9,26 @@
     padding-top: 9px;
     z-index: 3;
 }
-
+.r-yyyyoo2{
+    width: 41px;   
+    height: 17.5px;
+    padding-left: 11px;
+    fill:rgb(83, 100, 113);
+    cursor: pointer;
+}
 .r-yyyyoo{
     width: 41px;   
     height: 17.5px;
     padding-left: 11px;
-    fill:rgb(83, 100, 113);;
+    fill:rgb(83, 100, 113);
+    cursor: pointer;
+}
+.r-yyyyoo:hover{
+    background-color: rgba(29, 155, 240, 0.2);
+    border-radius: 25px;
+    margin-left: -2px;
+    height: 39px;
+    fill:rgb(29, 155, 240);
 }
 .main--aside__search-container_bg{
     width: 350px;

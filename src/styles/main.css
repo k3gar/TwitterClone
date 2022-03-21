@@ -9,9 +9,9 @@ main{
     border-left: 1px solid #f1f1f1;
     border-right: 1px solid #f1f1f1;
 }
-.main--post p{
+/* .main--post p{
     margin: 35px 0;
-}
+} */
 
 .main--aside{
     width: 350px;
