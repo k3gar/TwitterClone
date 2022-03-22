@@ -53,6 +53,19 @@
     resize: none;
     overflow: hidden;
 }
+.tweetinput--interactive__icons div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+}
+
+.tweetinput--interactive__icons div:hover{
+    background-color:rgba(29, 155, 240, 0.2);
+    border-radius: 25px;
+
+}
 .tweetinput--interactive__button{
     opacity: 0.5;
     background-color: rgb(29, 155, 240);

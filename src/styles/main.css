@@ -9,9 +9,6 @@ main{
     border-left: 1px solid #f1f1f1;
     border-right: 1px solid #f1f1f1;
 }
-/* .main--post p{
-    margin: 35px 0;
-} */
 
 .main--aside{
     width: 350px;
@@ -23,7 +20,6 @@ main{
     position: relative;
     width: 600px;
     height: 50px;
-
 }
 .main--post__tittle_container{
     display: flex;
@@ -35,6 +31,28 @@ main{
     position: fixed;
     background-color: rgba(255, 255, 255, 0.85);
     backdrop-filter: blur(12px);
+}
+.main--post__tittle_container div{
+    position: relative;
+}
+.main--post__tittle_container div span{
+    position: absolute;
+    display: none;
+    opacity: 0;
+    bottom: -22px;
+    left: -25px;
+    font-family: 'TwitterChirp', sans-serif;
+    background-color: rgb(83, 100, 113);
+    color: white;
+    padding: 3px;
+    border-radius: 3px;
+    font-size: 11px;
+    width: 62px;
+}
+.main--post__tittle_container div:hover span{
+    opacity: 1;
+    display: block;
+
 }
 .main--post__tittle_container h3 {
     font-size: 20px;

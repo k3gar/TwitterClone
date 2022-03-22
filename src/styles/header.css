@@ -26,14 +26,14 @@ a{
     padding: 0 15px 0 ;
     position: fixed;
     min-width: 88px;
-    height: 96%;
+    height: 98%;
 }
 .headerMenu--items{
     display: flex;
     list-style: none;
     align-content: space-between;
     align-items: center;
-    margin: 0.1% 0;
+    margin: 5.25% 0;
 }
 .headerMenu--items div{
     display: flex;
@@ -41,7 +41,7 @@ a{
     justify-content: center;
     transition-duration: 0.2s;
     height: 100%;
-    padding: 7.5% 0;
+    padding: 10px;
     padding-left: 8px;
 }
 .headerMenu--items:hover div{
@@ -78,7 +78,8 @@ a{
     border-radius: 100px;
     width: 225px;
     height: 49px;
-    margin-top: 7px;
+    margin-bottom: 16px;
+    margin-top: 16px;
 }
 .headerMenu--tweet-button:hover{
     cursor: pointer;

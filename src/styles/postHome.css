@@ -1,18 +1,23 @@
 .published-post{
     display: flex;
     padding: 12px 16px;
-    /* border-top: 1px solid #f1f1f1; */
     border-bottom: 1px solid #f1f1f1;
+}
+.published-post:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.03);
+    transition-duration: 0.2s;
 }
 .published-content{
     display: flex;
     flex-direction: column;
+    width: 506px;
 }
 .published-post_reactions{
     display: flex;
     justify-content: space-between;
     margin-top: 12px;
-    width: 425px;
+    width: 400px;
 }
 .published-post_user_pic{
     margin-right: 12px;
@@ -41,6 +46,9 @@
     font-weight: 700;
     color: #0f1419;
     margin-right: 5px;
+}
+.published-post_text-user h3:hover{
+    text-decoration:underline;
 }
 .published-post_text-user p{
     color: rgb(83, 100, 113);
@@ -72,4 +80,44 @@
 }
 .published-post_text-dots:hover .r-yyyyoo3{
     fill: rgb(29, 155, 240);
+}
+.published-post_text-dots:hover .published-post_text-alt{
+    opacity: 1;
+    transition-duration: 0.5s;
+    animation-delay: 15s;
+}
+
+.published-post_text-alt{
+    bottom: -20px;
+    position: absolute;
+    opacity: 0;
+    transition-duration: 0s;
+    background-color: rgb(83, 100, 113);
+    color: white;
+    font-family: 'TwitterChirp', sans-serif;
+    padding: 3px;
+    border-radius: 3px;
+    font-size: 11px;
+}
+.main--aside-trends-dots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.main--aside-trends-dots:hover .main--aside-trends_alt{
+    opacity: 1;
+}
+.main--aside-trends_alt{
+    bottom: -21px;
+    position: absolute;
+    opacity: 0;
+    transition-duration: 0s;
+    background-color: rgb(83, 100, 113);
+    color: white;
+    font-family: 'TwitterChirp', sans-serif;
+    padding: 3px;
+    border-radius: 3px;
+    font-size: 11px;
 }

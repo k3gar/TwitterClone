@@ -1,5 +1,34 @@
 [
     {
-        
+        "pic": "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_400x400.jpg",
+        "name": "The Washington Post",
+        "username": "@washingtonpost",
+        "content": "Survivor of four Nazi concentration camps is killed in Ukraine, foundation says"
+    },
+    {
+        "pic": "https://pbs.twimg.com/profile_images/1467129666326745089/7jVY2Gb7_400x400.jpg",
+        "name": "null",
+        "username": "@ecn_null",
+        "content": "Business is a never ending quest to deliver the same result in an easier fashion"
+    },{
+        "pic": "https://pbs.twimg.com/profile_images/1471875064668860419/XwJDb3ih_400x400.jpg",
+        "name": "Gonzalo",
+        "username": "@gonzaa_mont",
+        "content": "Los elegebete han hecho suyo el #MOTOMAMI"
+    },{
+        "pic": "https://pbs.twimg.com/profile_images/1416100150511116291/HHulBlaW_400x400.jpg",
+        "name": "Neptali Tisnado",
+        "username": "@neptali_tisnado",
+        "content": "Haber diseñado la arquitectura de 4 sistemas y tener en producción 3 es algo fenomenal!"
+    },{
+        "pic": "https://pbs.twimg.com/profile_images/1506335760521347075/p1iecv7w_400x400.jpg",
+        "name": "Cristian Arteaga",
+        "username": "@Se_go99",
+        "content": "Estos días en Costa Rica han sido increíbles, más aún cuando pasamos afuera del estadio y escuchamos los ensayos de @coldplay 🥺💜"
+    },{
+        "pic": "https://pbs.twimg.com/profile_images/1303826848430710784/6IMGhsuy_400x400.jpg",
+        "name": "Miguel Barajas",
+        "username": "@gnuowned",
+        "content": "Me estoy empezando a obsesionar con las Regresiones de Fibonacci :-D"
     }
 ]

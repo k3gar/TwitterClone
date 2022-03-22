@@ -26,11 +26,12 @@
     display: flex;
 }
 .headerMenu--profile-button__text p {
-    font-size: 14px;
-    line-height: 19px;
+    font-size: 15px;
+    line-height: 20px;
     color: #0f1419;
     font-weight: 700;
 }
 .headerMenu--profile-button__text p:nth-child(2){
     font-weight: 400;
+    color: #536471;
 }

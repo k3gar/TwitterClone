@@ -18,7 +18,8 @@
 }
 .r-yyyyoo{
     width: 41px;   
-    height: 17.5px;
+    /* height: 17.5px; */
+    height: 39px;
     padding-left: 11px;
     fill:rgb(83, 100, 113);
     cursor: pointer;
