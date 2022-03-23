@@ -115,7 +115,7 @@ a{
 
 
 @media screen and (max-height: 702px) {
-    .headerMenu--items div{
-        padding: 4.5% 0;
+    .headerMenu--items{
+        margin: 0.8% 0;
     }
 }

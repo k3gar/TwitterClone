@@ -2,4 +2,19 @@
     display: flex;
     margin: 0;
     justify-content: center;
+    position: relative;
+}
+.HomePage-message{
+    position: absolute;
+}
+.message-menu{
+    position: sticky;
+    width: 400px;
+    height: 50px;
+    padding: 0px 15px;
+    background-color: rgb(173, 22, 22);
+    display: flex;
+    bottom: 0px;
+    right: 0px;
+    z-index: 3;
 }
