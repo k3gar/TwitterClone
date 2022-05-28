@@ -31,6 +31,7 @@ main{
     position: fixed;
     background-color: rgba(255, 255, 255, 0.85);
     backdrop-filter: blur(12px);
+    z-index: 2;
 }
 .main--post__tittle_container div{
     position: relative;
