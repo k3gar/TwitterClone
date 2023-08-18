@@ -1,6 +1,8 @@
 import React from 'react'
 import '../styles/index.css'
 import Buttons from './Buttons'
+import { Link } from "react-router-dom";
+
 
 const Login = () => {
   return (
@@ -17,8 +19,10 @@ const Login = () => {
                 <Buttons/>
 
                 <span className="or-divider">or</span>
-                
-                <button className="loginSection--loginButton loginSection--loginButton_other" type="button">Sign up with phone or email</button>
+
+                <Link className='react-router-link' to="/LoginPage">
+                  <button className="loginSection--loginButton loginSection--loginButton_other" type="button">Sign up with phone or email</button>
+                </Link>
 
                 <div className="loginSection--terms">
                   <p>By signing up, you agree to the <span>Terms of Service</span> and <br /> <span>Privacy Policy</span>, including <span>Cookie Use.</span></p>

@@ -121,3 +121,13 @@
     border-radius: 3px;
     font-size: 11px;
 }
+
+.hide-this-heart{
+    display: none;
+}
+
+.published-post_reactions-heart{
+    content: url(..//components/assets/empty-heart.svg);
+    height: 17.5px;
+    padding-right: 11px;
+}

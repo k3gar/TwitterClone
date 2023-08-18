@@ -72,3 +72,8 @@ a{
 a:hover{
   text-decoration: underline;
 }
+
+.react-router-link{
+  text-decoration: none !important;
+  margin: 0;
+}

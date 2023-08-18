@@ -41,6 +41,7 @@
 
 }
 .tweetinput--interactive__input{
+    height: 60px;
     min-height: 28px;
     width: 100%;
     padding: 11px 0 0 0;
@@ -52,6 +53,10 @@
     color: #0f1419;
     resize: none;
     overflow: hidden;
+}
+
+#tweetInput{
+    min-height: 116.8px;
 }
 .tweetinput--interactive__icons div{
     display: flex;

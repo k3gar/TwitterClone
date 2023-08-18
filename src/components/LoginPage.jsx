@@ -1,5 +1,6 @@
 import React from 'react'
 import Buttons from './Buttons'
+import { Link } from "react-router-dom";
 import ('../styles/loginPage.css')
 
 
@@ -14,7 +15,7 @@ const LoginPage = () => {
     const Label = document.querySelector('#text_label');
     Label.classList.remove('change-input-login')
     let inputArea = document.querySelector('#text').value;
-    if(inputArea != 0){
+    if(inputArea !== 0){
       Label.classList.add('change-input-login-text')
     }else{
       Label.classList.remove('change-input-login-text')
@@ -26,9 +27,11 @@ const LoginPage = () => {
   return (
     <main className='loginPage'>
         <section className='loginPage--form' onMouseDown={() => {removing();}}>
-            <img className="loginSection-exitLogo" src="https://img.icons8.com/material-outlined/20/000000/delete-sign.png"/>
+            <Link className='react-router-link' to="/">
+                <img className="loginSection-exitLogo" alt='Close icon' src="https://img.icons8.com/material-outlined/20/000000/delete-sign.png"/>
+            </Link>
             
-            <img className="loginSection-logo" src="https://img.icons8.com/color/43/000000/twitter--v1.png"/>
+            <img alt='Twitter Bird icon' className="loginSection-logo" src="https://img.icons8.com/color/43/000000/twitter--v1.png"/>
             <div>
             <h3 className='loginPage--form__tittle'>Sign in to Twitter</h3>
                 <Buttons/>
@@ -37,13 +40,15 @@ const LoginPage = () => {
                   Phone, email, or username
                   <input id='text' className='loginPage--form__area' type="text" />
                 </label>
-                <button className="loginSection--loginButton loginSection--black" type="button"> 
-                  <p>Next</p>
-                </button>
+                <Link className='react-router-link' to="/HomePage">
+                  <button className="loginSection--loginButton loginSection--black" type="button"> 
+                    <p>Next</p>
+                  </button>
+                </Link>
                 <button className="loginSection--loginButton loginSection--pass" type="button"> 
                   <p>Forgot password?</p>
                 </button>
-                <p className="loginSection--signup">Don't have an account?<a href="#">Sign up</a></p>
+                <p className="loginSection--signup">Don't have an account?<Link to="/HomePage">Sign up</Link></p>
             </div>
         </section>
     </main>

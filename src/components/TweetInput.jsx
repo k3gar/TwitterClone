@@ -4,21 +4,27 @@ import '../styles/tweetInput.css'
 const TweetInput = () => {
     function prueba5() {
         const textarea = document.querySelector("textarea");
+        const tweetInput = document.getElementById("tweetInput")
+        const postInput = document.getElementById("postInput")
         textarea.addEventListener("keyup", e =>{
           textarea.style.height = "63px";
           let scHeight = e.target.scrollHeight;
+          let scHeight2 = e.target.scrollHeight + 60;
+          let scHeight3 = e.target.scrollHeight + 20;
           textarea.style.height = `${scHeight}px`;
+          tweetInput.style.height = `${scHeight2}px`;
+          postInput.style.height = `${scHeight3}px`;
         });
     }
 
 
 
   return (
-    <div className='tweetinput'>
+    <div className='tweetinput' id='tweetInput'>
         <div className='tweetinput--container'>
             <img className='tweetinput--container__pic' src="https://pbs.twimg.com/profile_images/1235351751802400774/LNPwr6Hv_normal.jpg" alt="profile pic" />
             <div className='tweetinput--interactive'>
-                <label className='tweetinput--label' htmlFor="post-input">
+                <label className='tweetinput--label' htmlFor="post-input" id='postInput'>
                     <textarea onKeyUp={ () => {prueba5()}} id='post-input' type='text' className='tweetinput--interactive__input' placeholder='What’s Happening?'></textarea>
 
                 </label>

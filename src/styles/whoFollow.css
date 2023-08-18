@@ -58,3 +58,6 @@
     border: none;
     border-radius: 50px;
 }
+.main--aside-follow-textContainer button:hover{
+    cursor: pointer;
+}
